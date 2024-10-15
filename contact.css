@@ -1,0 +1,250 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.main-nav {
+    height: 96px;
+    background-color: black;
+    color: white;
+}
+.nav-data {
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.nav-menu ul li {
+    margin-left: 50px;
+    font-size: larger;
+}
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.nav-icon i {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.nav-header {
+    margin-top: 25px;
+}
+
+.container {
+    /* max-width: 500px; */
+    /* margin: 50px auto; */
+    border-radius: 8px;
+    padding-top: 20px;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.form-group textarea {
+    height: 150px;
+}
+.form-group input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #000e01;
+}
+.contact-data {
+    display: flex;
+}
+.contact-us {
+    width: 1150px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.contact {
+    padding: 50px 0;
+}
+.box-1 {
+    width: 50%;
+    padding: 20px;
+}
+.box-2 {
+    width: 50%;
+    padding: 20px;
+}
+.box-1 h5 {
+    color: #ffba00;
+    padding-bottom: 20px;
+}
+.box-1 h1 {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.box-1 p {
+    padding-bottom: 30px;
+}
+.box-1 img {
+    padding-bottom: 20px;
+}
+.box-1 i {
+    display: inline-block;
+}
+.box-1 h4 {
+    color: #615959;
+}
+.icon {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.box-2 h3 {
+    padding-bottom: 20px;
+}
+
+
+.foot {
+    background-color: #ececec;
+    padding: 20px;
+}
+.main-foot {
+    width: 1150px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.footer {
+    display: flex;
+}
+.foot-1 {
+    width: 35%;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+.foot-1 p {
+    padding: 20px 0;
+}
+input {
+    height: 50px;
+    padding: 5px;
+    font-size: 1rem;
+    width: 300px;
+}
+.foot-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 17px 104px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.foot-2 {
+    width: 65%;
+}
+.part-1 {
+    display: flex;
+    padding: 20px;
+}
+.pages {
+    width: 33%;
+}
+.pages h3 {
+    padding-bottom: 20px;
+}
+.pages ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.quick-shop ul li {
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+.quick-shop h3 {
+    padding-bottom: 20px;
+}
+.community h3 {
+    padding-bottom: 20px;
+}
+.quick-shop ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.community ul li {
+    list-style: none;
+    padding-bottom: 25px;
+}
+.community ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.pages ul li {
+    list-style: none;
+    padding-bottom: 25px;
+}
+.quick-shop {
+    width: 33%;
+}
+.community {
+    width: 33%;
+}
+.foot-img {
+    display: flex;
+}
+.foot-img img {
+    width: 100px;
+    height: 100px;
+    background-color: #ececec;
+}
+.part-2 {
+    padding: 20px;
+}
+.bot-data {
+    width: 1150px;
+    margin: auto;
+    display: flex;
+}
+.bot-1 {
+    width: 40%;
+    padding: 20px;
+}
+.bot-2 {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+.bot-2 img {
+    width: 300px;
+    height: 200px;
+}
